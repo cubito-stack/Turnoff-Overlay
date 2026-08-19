@@ -1,11 +1,16 @@
+# Archivos de compilación e intermedios
 build/
-
-*.ovl
-
 *.elf
-
 *.nacp
-
 *.nro
+*.ovl
+*.map
+*.d
 
+# Configuración del editor / IDE
 .vscode/
+.idea/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
